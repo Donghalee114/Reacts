@@ -1,0 +1,17 @@
+.ProjectCard{
+  background-color:#fff;
+  color : #000;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  display: block;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.ProjectCard:hover {
+  transform:translateY(-5px) ; 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
