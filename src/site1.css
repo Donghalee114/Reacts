@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0;100..900;1,100..900&display=swap');
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  color : rgb(0, 0, 0);
+
+}
+
+.epilogue-content {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.epilogue-text {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.LearnMoreButton {
+  width : 150px;
+   height:50px ;
+    border-Radius:18px; 
+    background : black ; 
+    color :white;  
+    margin-top : 60px; 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.LearnMoreButton:hover {
+  color: black;
+  background-color: white;
+  border : 1px solid black;
+}
+
+.dropdown {
+  position: absolute;
+  top: 60px; /* nav 높이만큼 아래 */
+  left: 165px; /* 메뉴 위치에 맞게 조정 필요 */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.dropdown div {
+  cursor: pointer;
+  font-size: 14px;
+  color: hsl(0, 0%, 41%);
+
+}
+
+.dropdown div:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown-wrapper {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.dropdown-wrapper.open {
+  max-height: 500px; /* 드롭다운 높이보다 크게 */
+  opacity: 1;
+}
+
+.dropdown-company {
+  position: absolute;
+  top: 60px; /* nav 높이만큼 아래 */
+  left: 285px; /* 메뉴 위치에 맞게 조정 필요 */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.dropdown-company div {
+  cursor: pointer;
+  font-size: 14px;
+  color: hsl(0, 0%, 41%);
+
+}
+
+.dropdown-company div:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown-company-wrapper {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.dropdown-company-wrapper.open {
+  max-height: 500px; /* 드롭다운 높이보다 크게 */
+  opacity: 1;
+}
+
+.About{
+  cursor: pointer;
+}
+
+.About:hover{
+  font-weight: 600;
+}
+
+.LetsBlack{
+   color : #777
+}
+
+.LetsBlack:hover{
+  color:black
+}
