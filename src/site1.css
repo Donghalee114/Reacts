@@ -42,15 +42,16 @@ body{
 .dropdown {
   position: absolute;
   top: 60px; /* nav 높이만큼 아래 */
-  left: 165px; /* 메뉴 위치에 맞게 조정 필요 */
+  left: 120px; /* 메뉴 위치에 맞게 조정 필요 */
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 10px 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   z-index: 999;
+  font-family: "Epilogue", sans-serif;
 }
 
 .dropdown div {
@@ -84,17 +85,19 @@ body{
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 10px 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   z-index: 999;
+  font-family: "Epilogue", sans-serif;
 }
 
 .dropdown-company div {
   cursor: pointer;
   font-size: 14px;
   color: hsl(0, 0%, 41%);
+  user-select: none;
 
 }
 
